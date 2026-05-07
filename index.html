@@ -1,11 +1,135 @@
-<!DOCTYPE HTML>
-<HTML LANG="en">
-<HEAD>
-    <TITLE>Mannoj's Portfolio</TITLE>
-</HEAD>
-<BODY>
-    <H1>Hi, I'm Mannoj</H1>
-    <P>Welcome to my personal space on the web.</P>
-	<P>This website is under construction...</P>
-</BODY>
-</HTML>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mannoj's Portfolio</title>
+  <style>
+    body {
+      font-family: Courier New;
+      margin: 0;
+      padding: 0;
+      background-color: ivory;
+      color: black;
+    }
+
+    header {
+      background-color: green;
+      color: white;
+      text-align: center;
+      padding: 50px;
+    }
+
+    header img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid white;
+    }
+
+    header h1 {
+      margin: 20px 0 10px;
+      font-size: 2.5em;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+    }
+
+    section h2 {
+      border-bottom: 2px solid green;
+      padding-bottom: 10px;
+      margin-bottom: 20px;	
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project {
+      background-color: lightgreen;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: green;
+      color: white;
+    }
+
+    a {
+      color: green;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Mannoj.jpg" alt="Mannoj">
+    <h1>Mannoj</h1>
+    <p>Data Analyst</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>As a Data Analyst, I turn raw data into meaningful insights using Python, SQL and Data Visualization.</p>
+      <p>I trive on curiosity, clean data and dashboards that tell a story-making complex analytics simple and actionable.</p>
+      <p>I enjoy making data accessible and meaningful for both technical and non-technical audiences.</p>
+    </section>
+
+    <section>
+      <h2>My Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>Project 1</h3>
+          <p>Short description of your project. Add technologies used or special features.</p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <p>Short description of your project. Add technologies used or special features.</p>
+          <a href="#">View Project</a>
+        </div>
+        <div class="project">
+          <h3>Project 3</h3>
+          <p>Short description of your project. Add technologies used or special features.</p>
+          <a href="#">View Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact Me</h2>
+      	<p>I'd love to hear from you! Whether you have a project in mind, want to collaborate or just want to chat about data, feel free to reach out.</p>
+      	<p>Phone: (702) 249 8887</p>
+	<p>E-Mail: <a href="">m7022498887@gmail.com</a></p>
+      	<p>What's App: (702) 249 8887</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 Mannoj. All Rights Reserved.
+  </footer>
+</body>
+</html>
